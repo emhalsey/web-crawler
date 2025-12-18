@@ -118,6 +118,7 @@ After the BFS was finally successful, I included more error checking and error m
 
 
 
-Finally, I went back and implemented the extra credit URL frontier. I liked this part because even though it was difficult, it made the program much more efficient and useful.
+Finally, I went back and implemented the URL frontier, which places more weight on same-domain urls (in contrast to external links, like a social media page). Even though it was difficult to implement, it made the program much more efficient and useful.
+
 
 

@@ -24,25 +24,25 @@ Since this program was written in Colab, it is easier to run it as a notebook. H
 
 
 
-1\) Click the link above or copy and paste it into your preferred browser.
+1) Click the link above or copy and paste it into your preferred browser.
 
 
 
-2\) Click the "Run All" button on the top left of the toolbar. This will run all the cells in the program and automatically start the main code block.
+2) Click the "Run All" button on the top left of the toolbar. This will run all the cells in the program and automatically start the main code block.
 
 
 
-3\) Follow the prompts in output box of the last cell. They should read:
+3) Follow the prompts in output box of the last cell. They should read:
 
 
 
-&nbsp;	Enter what you're searching for:
+      `Enter what you're searching for:`
 
-&nbsp;	Enter the starting URL for the web crawl:
+      `Enter the starting URL for the web crawl:`
 
 
 
-4\) Watch the magic happen!
+4) Watch the magic happen!
 
 
 
@@ -56,47 +56,45 @@ I prefer Colab for projects like this since it is more accessible and requires l
 
 #### 
 
-1\) You will need to download the following libraries:
+1) You will need to download the following libraries:
+
+- bs4 | BeautifulSoup
+
+- collections | dequeue
+
+- requests
+
+- urllib | robortparser
+
+- urllib.parse | urlparse, urljoin
 
 
 
-&nbsp;- bs4 | BeautifulSoup
+  a) This can be done in your terminal using the `pip install` command.
 
-&nbsp;- collections | dequeue
-
-&nbsp;- requests
-
-&nbsp;- urllib | robortparser
-
-&nbsp;- urllib.parse | urlparse, urljoin
+  b) If you use Anaconda, DO NOT use `pip`. This is unsafe and can cause dependency issues. Instead, open the Anaconda Shell and use `conda forge`.
 
 
 
-&nbsp;	i) This can be done in your terminal using the `pip install` command.
-
-&nbsp;	ii) If you use Anaconda, DO NOT use `pip`. This is unsafe and can cause dependency issues. Instead, open the Anaconda Shell and use `conda forge`.
+2) Open the program in your IDE of choice. Move all the import statements to the top of the program.
 
 
 
-2\) Open the program in your IDE of choice. Move all the import statements to the top of the program.
+  a) Having imports dispersed throughout the program may cause issues when running in an IDE.
 
 
 
-&nbsp;	i) Having imports dispersed throughout the program may cause issues when running in an IDE.
+3) Run the program and follow the prompts. They should read:
 
 
 
-3\) Run the program and follow the prompts. They should read:
+      `Enter what you're searching for:`
+
+      `Enter the starting URL for the web crawl:`
 
 
 
-&nbsp;	Enter what you're searching for:
-
-&nbsp;	Enter the starting URL for the web crawl:
-
-
-
-4\) Watch the magic happen!
+4) Watch the magic happen!
 
 
 
@@ -108,7 +106,7 @@ I prefer Colab for projects like this since it is more accessible and requires l
 
 
 
-I initially wrote this program by following along with your video on how to write a web crawler in Python. I liked how you started, but since we were already in Colab, I decided to use the notebook feature for easier organization and clear annotation.
+I initially wrote this program by following along with a video from my professor. I liked how it began, but since we were already in Colab, I decided to use the notebook feature for easier organization and clear annotation.
 
 
 
@@ -121,4 +119,5 @@ After the BFS was finally successful, I included more error checking and error m
 
 
 Finally, I went back and implemented the extra credit URL frontier. I liked this part because even though it was difficult, it made the program much more efficient and useful.
+
 
